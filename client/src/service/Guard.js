@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import {Navigate, useLocation} from "react-router-dom";
-import ApiService from "./ApiSvervice";
+import ApiService from "./ApiService";
 
-export const protectedRoute = ({element: Comment}) => {
+export const ProtectedRoute = ({element: Comment}) => {
     const location = useLocation();
 
     return ApiService.isAuthenticated() ? (
@@ -12,7 +12,7 @@ export const protectedRoute = ({element: Comment}) => {
     );
 }
 
-export const adminRoute = ({element: Comment}) => {
+export const AdminRoute = ({element: Comment}) => {
     const location = useLocation();
 
     return ApiService.isAdmin() ? (
