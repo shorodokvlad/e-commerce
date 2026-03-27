@@ -4,6 +4,7 @@ import { ProtectedRoute, AdminRoute } from './service/Guard';
 import Navbar from './component/common/NavBar';
 import Footer from './component/common/footer';
 import { CartProvider } from './component/context/CartContext';
+import Home from './component/pages/Home';
 
 function App() {
   return (
@@ -11,9 +12,7 @@ function App() {
     <CartProvider>
       <Navbar/>
         <Routes>
-          {/* OUR ROUTES */}
-
-          
+          <Route exact path='/' element={<Home/>}></Route>
         </Routes>
       <Footer/>
     </CartProvider>
