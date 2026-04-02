@@ -17,8 +17,8 @@
 }
 
 .pagination button.active{
-    background-color: #f68b1e;
+    background-color: cornflowerblue;
 }
 .pagination button:hover{
-    background-color: #874f17;
+    background-color:dodgerblue;
 }

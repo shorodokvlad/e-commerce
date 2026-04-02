@@ -102,14 +102,14 @@ Once both servers are running:
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE.md` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
 
-Vlad Shorodok - [@shorodokvlad](https://twitter.com/shorodokvlad) - vladshorodok@gmail.com
+Vladislav Shorodok - [@shorodokvlad](https://twitter.com/shorodokvlad) - vlad.shorodoc@gmail.com
 
 Project Link: [https://github.com/shorodokvlad/ecommerce-app](https://github.com/shorodokvlad/ecommerce-app)
 
